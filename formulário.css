@@ -34,6 +34,7 @@ body{
     font-weight: 400;
     font-size: 27px;
 }
+
 .conteudo{
     margin-bottom: 48px;
     border-top: 1px solid #E6BE8A;
@@ -45,23 +46,30 @@ body{
     align-items: center;
     justify-content: space-around;
 }
-.conteudo-principal-escrito{
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-}
 .conteudo-principal-titulo{
     font-family: 'Lora', serif;
     color: #D4AF37;
     font-weight: 900;
     font-size: 64px;
 }
-.paragrafo-descricao-hobbies{
+.formulario{
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
     color: #E6BE8A	;
     font-weight: 400;
     font-size: 27px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+}
+
+input,
+textarea{
+    background-color: #E6BE8A;
+}
+
+button{
+background-color: #D4AF37;
+color: white;
+font-family: 'Lora', serif;
+font-weight: 400;
+    font-size: 30px;
 }
