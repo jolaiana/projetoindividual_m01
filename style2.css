@@ -10,7 +10,7 @@
 
 body{
     font-size: 100%;
-    background-image:url(/imagens/fundoclaro.jpg);
+    background-image:url(./imagens/fundoclaro.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
